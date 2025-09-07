@@ -1,0 +1,77 @@
+{
+  "title": "Smart City IoT Analytics Pipeline - Deployment Guide",
+  "version": "1.0.0",
+  "last_updated": "2025-09-06T22:49:32.282274",
+  "prerequisites": [
+    "Python 3.8+",
+    "Apache Spark 3.4+",
+    "PostgreSQL 14+",
+    "Docker (optional)",
+    "Java 11+"
+  ],
+  "installation_steps": [
+    "1. Clone the repository",
+    "2. Install Python dependencies: pip install -r requirements.txt",
+    "3. Download PostgreSQL JDBC driver",
+    "4. Configure database connection settings",
+    "5. Initialize database schema",
+    "6. Configure Spark settings",
+    "7. Set up monitoring and logging",
+    "8. Deploy dashboard application"
+  ],
+  "configuration": {
+    "database": {
+      "host": "localhost",
+      "port": 5432,
+      "database": "smart_city_iot",
+      "connection_pool_size": 10
+    },
+    "spark": {
+      "driver_memory": "4g",
+      "executor_memory": "2g",
+      "max_result_size": "2g"
+    },
+    "dashboard": {
+      "port": 8050,
+      "refresh_interval": 30,
+      "debug_mode": false
+    },
+    "monitoring": {
+      "log_level": "INFO",
+      "health_check_interval": 300,
+      "alert_thresholds": {
+        "cpu_usage": 80,
+        "memory_usage": 85,
+        "disk_usage": 90
+      }
+    }
+  },
+  "operational_procedures": [
+    "Daily: Monitor dashboard and check alerts",
+    "Weekly: Review system performance metrics",
+    "Monthly: Update data retention policies",
+    "Quarterly: Review and update anomaly detection models"
+  ],
+  "troubleshooting": {
+    "common_issues": [
+      {
+        "issue": "Database connection timeout",
+        "solution": "Check network connectivity and increase connection timeout"
+      },
+      {
+        "issue": "Spark out of memory error",
+        "solution": "Increase driver memory or reduce batch size"
+      },
+      {
+        "issue": "Dashboard not loading",
+        "solution": "Check if all dependencies are installed and port is available"
+      }
+    ]
+  },
+  "monitoring_endpoints": [
+    "System health: /health",
+    "Data quality: /quality",
+    "Pipeline status: /status",
+    "Metrics: /metrics"
+  ]
+}

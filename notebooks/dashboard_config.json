@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-09-06T22:49:32.218823",
+  "refresh_interval": 30,
+  "port": 8050,
+  "features": [
+    "real_time_metrics",
+    "historical_trends",
+    "sensor_map",
+    "alert_system",
+    "auto_refresh"
+  ]
+}

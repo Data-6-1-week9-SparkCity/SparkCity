@@ -1,6 +1,12 @@
 # SparkCity
 an apache spark project.
 
+## 📋 Quick Links
+- **[📊 Detailed Project Accomplishments Report](PROJECT_ACCOMPLISHMENTS_REPORT.md)** - Comprehensive analysis of what was achieved each day with technical details, connections, and metrics
+- **[📓 Jupyter Notebooks](notebooks/)** - Interactive day-by-day implementation
+- **[🔧 Setup Guide](#-getting-started)** - Quick start instructions
+
+---
 
 # Smart City IoT Analytics Pipeline
 ## 5-Day PySpark Data Engineering Lab
