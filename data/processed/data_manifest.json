@@ -1,0 +1,30 @@
+{
+  "created_at": "2025-09-06 17:23:46.091342",
+  "day2_processing_completed": true,
+  "datasets": {
+    "traffic": {
+      "path": "../data/processed/traffic_cleaned.parquet",
+      "format": "parquet",
+      "rows": 100850,
+      "columns": 16
+    },
+    "air_quality": {
+      "path": "../data/processed/air_quality_cleaned.parquet",
+      "format": "parquet",
+      "rows": 13460,
+      "columns": 20
+    },
+    "weather": {
+      "path": "../data/processed/weather_cleaned.parquet",
+      "format": "parquet",
+      "rows": 3370,
+      "columns": 22
+    },
+    "energy": {
+      "path": "../data/processed/energy_cleaned.parquet",
+      "format": "parquet",
+      "rows": 201800,
+      "columns": 19
+    }
+  }
+}
